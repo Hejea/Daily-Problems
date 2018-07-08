@@ -9,9 +9,10 @@ cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and 
 
 Given this implementation of cons:
 
-def cons(a, b):
-    def pair(f):
-        return f(a, b)
-    return pair
+    def cons(a, b):
+        def pair(f):
+            return f(a, b)
+        return pair
 
-Implement car and cdr.********************************************
+Implement car and cdr.
+********************************************
